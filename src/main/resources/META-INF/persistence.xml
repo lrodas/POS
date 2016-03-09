@@ -2,29 +2,29 @@
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
   <persistence-unit name="com.cycsystems_POS_jar_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-    <class>com.cycsystems.BackEnd.Clases.Opcion</class>
-    <class>com.cycsystems.BackEnd.Clases.TipoUbicacion</class>
-    <class>com.cycsystems.BackEnd.Clases.Estadoempleado</class>
-    <class>com.cycsystems.BackEnd.Clases.Licencia</class>
-    <class>com.cycsystems.BackEnd.Clases.Corte</class>
-    <class>com.cycsystems.BackEnd.Clases.RolOpcion</class>
-    <class>com.cycsystems.BackEnd.Clases.Formapago</class>
-    <class>com.cycsystems.BackEnd.Clases.Proveedor</class>
-    <class>com.cycsystems.BackEnd.Clases.Detalle</class>
-    <class>com.cycsystems.BackEnd.Clases.Empleado</class>
-    <class>com.cycsystems.BackEnd.Clases.Cliente</class>
-    <class>com.cycsystems.BackEnd.Clases.Bodega</class>
-    <class>com.cycsystems.BackEnd.Clases.Cotizacion</class>
-    <class>com.cycsystems.BackEnd.Clases.Menuprincipal</class>
-    <class>com.cycsystems.BackEnd.Clases.Ubicacion</class>
-    <class>com.cycsystems.BackEnd.Clases.Rol</class>
-    <class>com.cycsystems.BackEnd.Clases.Detallecotizacion</class>
-    <class>com.cycsystems.BackEnd.Clases.Empresa</class>
-    <class>com.cycsystems.BackEnd.Clases.Facturacion</class>
-    <class>com.cycsystems.BackEnd.Clases.TipoProducto</class>
-    <class>com.cycsystems.BackEnd.Clases.Producto</class>
-    <class>com.cycsystems.BackEnd.Clases.TipoIdentificacion</class>
-    <class>com.cycsystems.BackEnd.Clases.Detallepago</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Corte</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Cotizacion</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Estadoempleado</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Formapago</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.TipoIdentificacion</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Opcion</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.RolOpcion</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Proveedor</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Detallecotizacion</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Empleado</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Detalle</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Licencia</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Ubicacion</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.TipoProducto</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Rol</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Detallepago</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.TipoUbicacion</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Cliente</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Menuprincipal</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Empresa</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Facturacion</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Bodega</class>
+    <class>com.cycsystems.BackEnd.Clases.Entidades.Producto</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/pos?zeroDateTimeBehavior=convertToNull"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
